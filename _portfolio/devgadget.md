@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Chrome Extension - Dev Gadget
+title: Dev Gadget
+thumbnail-path: "img/devgadget.png"
+short-description: Build a Chrome Extension.
+
 ---
 
 {:.center}
@@ -11,8 +14,8 @@ I&rsquo;ve recently begun working on my first open source project&mdash;a Chrome
 As of this posting, the current iteration of Dev Gadget allows you to hover over HTML elements, displaying the tag, font family, font size, and text color of that element in a frame at the top of the window. A click on that element copies those styles to your clipboard. The scope is a bit limited with just showing those three styles, but I intend to add more functionality soon&mdash;such as the ability to select which styles you would like to copy. Being that this is intended to be an open source project, I am hoping other developers can bring more ideas to the table, so we can hone in what features are most useful to web designers and developers.
 
 {:.center}
-![]({{ site.baseurl }}/img/screenshot.png)
+![]({{ site.baseurl }}/img/devgadget.png)
 
 The process of developing this extension has gone relatively smoothly thus far. It was a little slow at the beginning getting acquainted with the architecture of Chrome extensions, but I found many other repos on Github that helped me smooth everything out. I&rsquo;m hoping this project has some legs and can really become something useful to more people than just me!
 
-You can view my Github repo [here](https://github.com/toryherman/dev-gadget).
+**[Github repo](https://github.com/toryherman/dev-gadget)**

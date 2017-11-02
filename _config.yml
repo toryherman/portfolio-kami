@@ -73,3 +73,5 @@ sass:
   style: :compressed
 
 gems: [jekyll-paginate]
+
+exclude: [img/screenshots.psd]
